@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Hoja de Vida</title>
+  </head>
+
+  <body>
+    <svg width="100px" height="100px" viewBox=" 0 0 100 100">
+      <image xlink:href="img/logo.svg" width="100" height="100"  />
+    </svg>
+    <h1> Hoja de Vida</h1>
+    <h2>Datos personales</h2>
+    <h3> Nombre:</h3>
+    <p>Estefania Flores Sandoval</p>
+    <h3>Fecha de nacimiento:</h3>
+    <p>13-08-1990 Calama, Chile</p>
+    <a href="index.html">Inicio</a>
+    <a href="educacion.html">Educación</a>
+    <a href="experiencia.html">Experiencia</a>
+    <h2>Educación</h2>
+    <table border="1">
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+      <tr>
+        <td>1996</td>
+        <td>Juan Pablo II</td>
+        <td>Calama</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2005</td>
+        <td>Luis Cruz Martinez</td>
+        <td>Calama</td>
+        <td>si</td>
+      </tr>
+      <tr>
+        <td>2009</td>
+        <td>Universidad Católica del Norte</td>
+        <td>Antofagasta</td>
+        <td>si</td>
+      </tr>
+    </table>
+    <h3>Agregar Estudios</h3>
+    <form class="" action="index.html" method="post">
+    <p>
+		<label for="recommend">Año: </label>
+		<br>
+		<select name="recommend">
+
+			<option value="1">2015</option>
+			<option value="2">2016</option>
+			<option value="3">2017</option>
+		</select>
+	</p>
+  <p>
+		<label for="username">Institución:</label>
+		<br>
+		<input type="text" name="username" placeholder="Ej: Universidad Católica del Norte" autofocus required>
+	</p>
+  <p>
+		<label for="comment">Lugar: </label>
+		<br>
+		<textarea name="comment" id="" cols="30" rows="3"></textarea>
+	</p>
+  <p>
+		<label for="genre">¿Culminó? </label>
+		<br>
+		<input type="radio" name="si"> Si
+		<br>
+		<input type="radio" name="no"> No
+	</p>
+  <p>
+  <input type="submit" value="Enviar">
+</p>
+    </form>
+    <footer>
+
+      <p>&copy; Todo los derechos reservados <br>Designed by Estefania</p>
+      <ul>
+        <li>Email: efs0013@gmail.com</li>
+        <li>Teléfono: +56950462323</li>
+        <li>Dirección: Av. Argentina #51</li>
+      </ul>
+    </footer>
+  </body>
+</html>
